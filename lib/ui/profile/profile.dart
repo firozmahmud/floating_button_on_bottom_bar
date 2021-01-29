@@ -20,11 +20,13 @@ class _ProfileState extends State<Profile> {
                 onPressed: settingsButtonClicked)
           ],
         ),
-        body: Center(
-            child: Text(
-          'Profile',
-          style: TextStyle(color: Colors.green, fontSize: 20),
-        )));
+        body: Container(
+          padding: EdgeInsets.all(18),
+          child: Text(
+            'Profile',
+            style: TextStyle(color: Colors.green, fontSize: 20),
+          ),
+        ));
   }
 
   settingsButtonClicked() {
